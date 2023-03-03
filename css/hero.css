@@ -1,0 +1,111 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: calc(100vh - 70px);
+
+}
+.small_img {
+    width: 300px;
+    margin-bottom: 30px;
+    display: block;
+    margin: 0 auto;
+    display: none;
+}
+.text-block {
+    width: 539px;
+}
+.hero .product {
+    font-size: 50px;
+    color: #091133;
+    line-height: 66px;
+    font-weight: 500;
+    margin-bottom:20px;
+
+}
+.hero .text {
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.hero .paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #505F98;
+    margin-bottom: 69px;
+}
+.hero .purchase {
+    width: 189px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #111B47;
+    margin-right: 30px;
+}
+.hero .purchase:hover {
+    background-color: #273880;
+}
+.hero .learn {
+    width: 189px;
+    height: 36px;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    color: #091133;
+    background-color: white;
+}
+.hero .learn:hover {
+    background-color: #273880;
+    color: white;
+}
+@media screen and (max-width:900px) {
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .text-block {
+        width: 50%;
+    }
+    .main-block {
+        background-position: calc(100% + 420px) bottom
+    }
+    @media screen and (max-width:700px) {
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 0 50px;
+            padding-top: 12px;
+        }
+        .text-block {
+            width: 100%;
+            justify-content: center;
+        }
+        .text {
+            display: none;
+        }
+        .small_img {
+            display: block;
+        }
+        .main-block {
+            background-image: none;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        .purchase {
+            margin-bottom: 40px;
+            margin-left: 30px;
+        }
+       
+    }
+
+
+
+    
+}

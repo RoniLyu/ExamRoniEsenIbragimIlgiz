@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.main-block{
+    height: 100vh;
+    background-image:url(./image/small_img.svg);
+    background-repeat: no-repeat;
+    background-size: auto calc(100vh + 30px);
+    background-position: calc(100% + 320px) bottom;
+}

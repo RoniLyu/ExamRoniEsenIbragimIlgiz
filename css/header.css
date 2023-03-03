@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding-top: 12px;
+    display: flex;
+}
+.container > menu {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+
+.container > menu li {
+    margin-right: 60px;
+}
+.container > .right-btn {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    padding-right: 165px;
+}
+.container .buy {
+    width: 160px;
+    height: 26px;
+    color: white;
+    background-color: #111B47;
+    border: none;
+    border-radius: 2px;
+}
+.container .burger{
+    border: none;
+    display: none;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 700px) {
+    .container menu {
+        display: none;
+    }
+    .container .burger {
+        display: block;
+    }
+    .container .buy {
+        display: none;
+    }
+    .container .right-btn {
+        padding-right: 20px;
+    }
+    .container .logo {
+        padding-left: 20px;
+    }
+}
+    
