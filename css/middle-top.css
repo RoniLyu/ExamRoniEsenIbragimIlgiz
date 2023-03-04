@@ -45,11 +45,16 @@
 
 
 @media screen and (max-width: 700px) {
+  .middle-top {
+    background-color: #9CA7DF;
+  }
+
   .m-card {
     display: flex;
     flex-direction: column-reverse;
     background-color: #9CA7DF;
     padding: 30px 0 0 0 ;
+    width: 100%;
   }
 
   .item-child:first-child h2{

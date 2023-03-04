@@ -69,4 +69,11 @@
         width: 100%;
         margin-top: 60px;
     }
+
+}
+
+@media screen and (max-width: 440px) {
+    .price {
+        margin-top: 120px;
+    }
 }
